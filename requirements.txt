@@ -1,0 +1,8 @@
+yfinance
+pandas
+ta
+gspread
+oauth2client
+gspread-dataframe
+python-dotenv
+scikit-learn 
