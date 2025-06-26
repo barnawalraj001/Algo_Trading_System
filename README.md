@@ -78,7 +78,7 @@ Algo Trading System/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/algo-trading-system.git
+   git clone https://github.com/yourusername/algo-trading-system.git](https://github.com/barnawalraj001/Algo_Trading_System.git
    cd algo-trading-system
    ```
 
