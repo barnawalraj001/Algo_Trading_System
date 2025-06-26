@@ -6,10 +6,10 @@ A modular, end-to-end algo-trading system for NIFTY 50 stocks, featuring rule-ba
 
 ## 📈 Project Overview
 This project is a Python-based trading system that:
-- Fetches daily (or intraday) stock data for NIFTY 50 stocks
 - Implements a rule-based trading strategy (RSI + moving average crossover)
 - Backtests the strategy and logs results
-- Optionally uses machine learning to predict next-day price movement (bonus)
+- Optionally uses machine learning to predict next-day price movement
+- send alerts through bot to telegram
 - Logs all signals, trades, and summaries to Google Sheets for easy tracking
 
 ---
@@ -33,7 +33,7 @@ This project is a Python-based trading system that:
 ### 4. ML Automation (Bonus)
 - Trains a Logistic Regression model to predict next-day movement using RSI, MACD, and Volume
 - Outputs accuracy, confusion matrix, and classification report
-- ML is optional and for research/bonus only
+- ML is optional and for research only working on only Reliance.NS data only
 
 ### 5. Google Sheets Automation
 - Logs trade signals, backtest logs, and summary stats to a Google Sheet
@@ -69,7 +69,7 @@ Algo Trading System/
 ├── requirements.txt            # Python dependencies
 ├── .gitignore                  # Ignore sensitive files and cache
 ├── README.md                   # This file
-└── .env.example                # Example environment variables (see below)
+└── .env.example                #  environment variables (not in repo)
 ```
 
 ---
@@ -78,7 +78,7 @@ Algo Trading System/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/algo-trading-system.git
+   git clone https://github.com/yourusername/algo-trading-system.git](https://github.com/barnawalraj001/Algo_Trading_System.git
    cd algo-trading-system
    ```
 
@@ -88,7 +88,6 @@ Algo Trading System/
    ```
 
 3. **Set up environment variables:**
-   - Copy `.env.example` to `.env` and fill in your Google credentials path and sheet name.
    - Example:
      ```env
      GOOGLE_CREDENTIALS_PATH="/path/to/your/credentials.json"
